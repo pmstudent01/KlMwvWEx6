@@ -1,0 +1,4 @@
+name: Local - Agent Mode
+values:
+  - key: baseUrl
+    value: ''

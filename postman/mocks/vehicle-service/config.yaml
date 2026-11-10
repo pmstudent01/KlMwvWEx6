@@ -1,0 +1,13 @@
+id: 9d8a7c6b-5e4f-4321-9876-123456789abc
+version: 1
+name: Vehicle Service Mock
+protocol: http
+port: 4500
+autoRestartOnChange: true
+logging:
+  level: verbose
+  showBody: true
+scenarios:
+  - name: default
+    path: ./default.js
+    default: true
